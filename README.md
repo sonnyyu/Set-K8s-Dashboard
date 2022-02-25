@@ -16,7 +16,7 @@ kubectl get pods --all-namespaces
 ```
 Delete Pod by kubernetes-dashboard Pod name 
 ```sh
-kubectl get pods --all-namespaces
+kubectl delete pod kubernetes-dashboard-546cbc58cd-s8wrh -n kubernetes-dashboard
 ```
 Create serviceaccount as dashboard-admin-sa
 ```sh
