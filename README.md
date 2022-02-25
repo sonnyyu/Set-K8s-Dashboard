@@ -5,7 +5,7 @@ ssh masterIP
 ```
 Comfirm Kubernetes Running
 ```sh
-ssh masterIP
+kubectl get nodes
 ```
 Create Kubernetes Dashboard
 ```sh
