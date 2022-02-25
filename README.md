@@ -1,7 +1,9 @@
 # Set-K8s-Dashboard
 SSH into Master Node
-
-Create Dashboard
+```sh
+ssh masterIP
+```
+Create Kubernetes Dashboard
 ```sh
 kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.5.0/aio/deploy/recommended.yaml
 ```
