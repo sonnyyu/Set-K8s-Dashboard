@@ -3,6 +3,10 @@ SSH into Master Node
 ```sh
 ssh masterIP
 ```
+Comfirm Kubernetes Running
+```sh
+ssh masterIP
+```
 Create Kubernetes Dashboard
 ```sh
 kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.5.0/aio/deploy/recommended.yaml
@@ -38,7 +42,6 @@ Get service port number
 ```sh
 kubectl get svc --all-namespaces
 ```
-
 open browerser 
 ```sh
 https://masterIP:port
