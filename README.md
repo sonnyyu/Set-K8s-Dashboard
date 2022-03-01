@@ -12,7 +12,7 @@ Create Kubernetes Dashboard
 kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.5.0/aio/deploy/recommended.yaml
 ```
 By default, the service is only available internally to the cluster (ClusterIP) 
-but changing to NodePort exposes the service to the outside.
+but changing to NodePort exposes the service to the outside, for LB use LoadBalancer 
 ```sh
 kubectl edit service/kubernetes-dashboard -n kubernetes-dashboard
 ```
